@@ -26,6 +26,7 @@ h2{
 .imagen {
   width: 700px;
   height: 350px;
+  max-width: 100%;
 }
 
 article{
