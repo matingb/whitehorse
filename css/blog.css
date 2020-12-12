@@ -1,0 +1,64 @@
+:root {
+  --violeta: rgb(127, 109, 151);
+}
+
+body {
+  background: rgba(255,255,255,1);
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 7%, rgba(194,169,214,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(7%, rgba(255,255,255,1)), color-stop(100%, rgba(194,169,214,1)));
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 7%, rgba(194,169,214,1) 100%);
+  background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 7%, rgba(194,169,214,1) 100%);
+  background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 7%, rgba(194,169,214,1) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 7%, rgba(194,169,214,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c2a9d6', GradientType=0 );
+}
+
+section {
+  text-align: center;
+}
+
+h2{
+   padding: 0.5em 0;
+   font-size: 65px;
+   color: #000;
+}
+
+.imagen {
+  width: 700px;
+  height: 350px;
+}
+
+article{
+  padding-top: 2em;
+}
+
+article p {
+  text-indent: 30px;
+  padding: 0 15%;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: left;
+  }
+
+  article .despedida {
+    text-align: right;
+    }
+
+  article .presentacion {
+    text-indent: 0;
+  }
+
+.firma {
+  padding: 1em 15% 0.5em;
+  text-indent: 0;
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 0;
+}
+
+.linea {
+  margin: 0 15% 2em 15%;
+  background-color: #555;
+  height: 1px;
+
+}

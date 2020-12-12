@@ -1,0 +1,102 @@
+:root {
+  --verde:  rgb(79, 140, 135);
+  --verde-claro: rgb(97, 182, 141);
+  --violeta: rgb(127, 109, 151);
+  --violeta-claro: rgb(167,134,194,1);
+}
+
+header {
+  margin-bottom: 20px;
+}
+.navegable-violeta {
+  width: 100%;
+  background-color:  var(--violeta);
+}
+.navegable-verde {
+  width: 100%;
+  background-color:  var(--verde);
+}
+    .navegable ul {
+      margin: 0;
+      float: right;
+      display: flex;
+    }
+    .navegable ul li {
+      font-size: 14px;
+      letter-spacing: 1.5px;
+      font-weight: 600;
+      padding: 1.7em;
+      color: #eee;
+      transition: all .2s;
+    }
+    .navegable-verde ul li:hover {
+       background-color: #eee;
+       color: var(--verde);
+     }
+     .navegable-violeta ul li:hover {
+        background-color: #eee;
+        color: var(--violeta);
+      }
+
+.titulo {
+   text-align: center;
+}
+  .titulo h1 {
+    margin: 0;
+    font-size: 5.5vw;
+    font-weight: bolder;
+  }
+  .titulo h3 {
+    margin: -10px 0 0 0;
+    font-size: 2.5vw;
+  }
+.seccion-redes {
+  margin: 0;
+  padding-top: 1em;
+  text-align: center;
+}
+  .seccion-redes ul{
+    margin: 0;
+    padding: 0;
+  }
+  .seccion-redes ul a{
+    border-radius: 100%;
+    text-decoration: none;
+    background-color: #eee;
+    color: #323232;
+    padding: 0.5em 0.5em 0.3em;
+    font-size: 1.5vw;
+    margin-right: 0.7em;
+    transition: all 0.5s;
+  }
+  .seccion-redes ul a:hover{
+    border-radius: 100%;
+    background-color: var(--verde-claro);
+    color: #fff;
+  }
+  .seccion-redes-violeta ul a:hover{
+    background-color: var(--violeta-claro);
+  }
+  .seccion-redes-verde ul a:hover{
+    background-color: var(--verde-claro);
+  }
+
+  @media screen and (max-width: 768px) {
+     .navegable ul li {
+       font-size: 2vw;
+     }
+     .titulo h1 {
+       margin-top: 8px;
+       font-size: 8vw;
+     }
+     .titulo h3 {
+       margin-top:0.2%;
+       font-size: 4vw;
+     }
+     .seccion-redes {
+       padding-top: 2%;
+     }
+     .seccion-redes ul a {
+       font-size: 3vw;
+     }
+  }

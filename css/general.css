@@ -1,0 +1,96 @@
+html {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+@font-face {
+    font-family: 'Centaur';
+    src: url('fonts/centaur/centaur.eot') format('eot');
+    src: url('fonts/centaur/centaur.eot?#iefix') format('embedded-opentype'),
+         url('fonts/centaur/centaur.woff2') format('woff2'),
+         url('fonts/centaur/centaur.woff') format('woff'),
+         url('fonts/centaur/centaur.ttf') format('ttf'),
+         url('fonts/centaur/centaur.svg') format('svg');
+}
+.Centaur {
+  font-family: 'Centaur';
+}
+
+
+@font-face {
+    font-family: 'Lucida Calligraphy';
+    src: url('fonts/lucida-calligraphy-italic/Lucida-Calligraphy-Italic.eot') format('eot');
+    src: url('fonts/lucida-calligraphy-italic/Lucida-Calligraphy-Italic.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lucida-calligraphy-italic/Lucida-Calligraphy-Italic.woff2') format('woff2'),
+         url('fonts/lucida-calligraphy-italic/Lucida-Calligraphy-Italic.woff') format('woff'),
+         url('fonts/lucida-calligraphy-italic/Lucida-Calligraphy-Italic.ttf') format('ttf'),
+         url('fonts/lucida-calligraphy-italic/Lucida-Calligraphy-Italic.svg') format('svg');
+}
+.Lucida-Calligraphy {
+  font-family: 'Lucida Calligraphy';
+}
+
+@font-face {
+    font-family: 'Castellar';
+    src: url('fonts/castellar/Castellar.eot') format('eot');
+    src: url('fonts/castellar/Castellar.eot?#iefix') format('embedded-opentype'),
+         url('fonts/castellar/Castellar.woff2') format('woff2'),
+         url('fonts/castellar/Castellar.woff') format('woff'),
+         url('fonts/castellar/Castellar.ttf') format('ttf'),
+         url('fonts/castellar/Castellar.svg') format('svg');
+}
+.Castellar {
+  font-family: 'Castellar';
+}
+
+@font-face {
+    font-family: 'Gabriola';
+    src: url('fonts/gabriola/Gabriola.eot') format('eot');
+    src: url('fonts/gabriola/Gabriola.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gabriola/Gabriola.woff2') format('woff2'),
+         url('fonts/gabriola/Gabriola.woff') format('woff'),
+         url('fonts/gabriola/Gabriola.ttf') format('ttf'),
+         url('fonts/gabriola/Gabriola.svg') format('svg');
+}
+.Gabriola {
+  font-family: 'Castellar';
+}
+
+@font-face {
+    font-family: 'Franklin-Gotic';
+    src: url('fonts/franklin-gotic/franklin-gotic.eot') format('eot');
+    src: url('fonts/franklin-gotic/franklin-gotic.eot?#iefix') format('embedded-opentype'),
+         url('fonts/franklin-gotic/franklin-gotic.woff2') format('woff2'),
+         url('fonts/franklin-gotic/franklin-gotic.woff') format('woff'),
+         url('fonts/franklin-gotic/franklin-gotic.ttf') format('ttf'),
+         url('fonts/franklin-gotic/franklin-gotic.svg') format('svg');
+}
+.Franklin-Gotic {
+  font-family: 'Franklin-Gotic';
+}
+
+@font-face {
+    font-family: 'Harrington';
+    src: url('fonts/harrington/harrington.eot') format('eot');
+    src: url('fonts/franklin-gotic/harrington.eot?#iefix') format('embedded-opentype'),
+         url('fonts/harrington/harrington.woff2') format('woff2'),
+         url('fonts/harrington/harrington.woff') format('woff'),
+         url('fonts/harrington/harrington.ttf') format('ttf'),
+         url('fonts/harrington/harrington.svg') format('svg');
+}
+.Harrington {
+  font-family: 'Harrington';
+}
+
+.sombra {
+  -webkit-box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.32);
+  -moz-box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.32);
+  box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.32);
+}
+
+.fotoPrincipal {
+  width: 100%;
+}

@@ -1,0 +1,27 @@
+:root {
+  --verde:  rgb(79, 140, 135);
+  --violeta: rgb(127, 109, 151);
+}
+
+.footer {
+  display: block;
+  padding: 1em 0;
+  color: #eee;
+  text-align: center;
+}
+
+.footer-violeta {
+  background: var(--violeta);
+}
+
+.footer-verde{
+  background: var(--verde);
+}
+
+.div-datos-personales {
+  display: inline-flex;
+  text-align: center;
+}
+.datos-personales {
+  color: #eee;
+}

@@ -1,0 +1,135 @@
+:root {
+  --fondo-libros: rgb(195, 227, 214);
+  --verde-oscuro:  rgb(79, 140, 135);
+  --verde-claro: rgb(97, 182, 141);
+}
+
+body {
+  background: rgba(250,250,250,1);
+  background: -moz-linear-gradient(top, rgba(250,250,250,1) 0%, rgba(250,250,250,1) 28%, rgba(196,227,214,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(250,250,250,1)), color-stop(28%, rgba(250,250,250,1)), color-stop(100%, rgba(196,227,214,1)));
+  background: -webkit-linear-gradient(top, rgba(250,250,250,1) 0%, rgba(250,250,250,1) 28%, rgba(196,227,214,1) 100%);
+  background: -o-linear-gradient(top, rgba(250,250,250,1) 0%, rgba(250,250,250,1) 28%, rgba(196,227,214,1) 100%);
+  background: -ms-linear-gradient(top, rgba(250,250,250,1) 0%, rgba(250,250,250,1) 28%, rgba(196,227,214,1) 100%);
+  background: linear-gradient(to bottom, rgba(250,250,250,1) 0%, rgba(250,250,250,1) 28%, rgba(196,227,214,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#c4e3d6', GradientType=0 );
+}
+
+section {
+  padding: 3em 2em 1em;
+}
+
+section h1 {
+  margin-bottom: 0.5em;
+  font-size: 4vw;
+  text-align: center;
+}
+
+.columna-libro{
+  text-align: center;
+  text-align: -webkit-center;
+  padding: 1em 0%;
+  margin: 0 1.2%;
+}
+
+.columna-libro img {
+  width: 100%;
+  height: 450px;
+  transition: all 0.2s;
+}
+
+.libro {
+  width: inherit;
+}
+
+.libro:hover img {
+  opacity: 0.5;
+}
+
+.columna-libro img:hover + .iconos-de-libro, .iconos-de-libro:hover {
+    display: block;
+}
+
+.iconos-de-libro {
+  display: none;
+  width: inherit;
+  position: absolute;
+  top:45%;
+  transition: all 0.2s;
+}
+
+  .icono-de-libro {
+    opacity: 80%;
+    border-radius: 100%;
+    background-color: #ddd;
+    color: #323232;
+    padding: 0.5em 0.5em 0.3em;
+    font-size: 1.6vw;
+    margin-right: 0.4em;
+    margin-left: 0.4em;
+  }
+
+  .icono-de-libro:hover {
+    opacity: 100%;
+    background-color: var(--verde-claro);
+    color: #fff;
+  }
+
+.titulo-libro {
+  font-weight: 700;
+}
+.libros div h5 {
+  font-size: 1vw;
+  padding-top: 1.5em;;
+}
+.libros div h6 {
+  font-size: 0.9vw;
+}
+
+@media screen and (max-width: 1000px) {
+  .titulo-libro {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    section {
+      padding-top: 6%;
+    }
+    section h1 {
+      font-size: 6vw;
+    }
+    .titulo-libro {
+      font-size: 3.9vw;
+    }
+    .columna-libro img {
+      height: 350px;
+    }
+    .iconos-de-libro {
+      padding-top: 9%;
+      display: block;
+      position: static;
+    }
+    .icono-de-libro {
+      background-color: var(--verde-oscuro);
+      opacity: 85%;
+      font-size: 125%;
+      padding: 0.5em 1.1em 0.3em;
+      border-radius: 30%;
+      color: #fff;
+    }
+}
+
+@media screen and (max-width: 499px) {
+  section h1 {
+    font-size: 8vw;
+  }
+
+  .iconos-de-libro {
+    padding-top: 6%;
+  }
+
+  .titulo-libro {
+    font-size: 6vw;
+  }
+}
