@@ -1,6 +1,7 @@
 :root {
   --verde:  rgb(79, 140, 135);
   --violeta: rgb(127, 109, 151);
+  --verde-libros: rgb(130, 195, 139);
 }
 
 .footer {
@@ -17,6 +18,11 @@
 .footer-verde{
   background: var(--verde);
 }
+
+.footer-verde-libros{
+  background: var(--verde-libros);
+}
+
 
 .div-datos-personales {
   display: inline-flex;

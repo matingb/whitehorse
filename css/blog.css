@@ -26,7 +26,7 @@ h2{
 .imagen {
   width: 700px;
   height: 350px;
-  max-width: 100%;
+  max-width: 80%;
 }
 
 article{
@@ -58,8 +58,36 @@ article p {
 }
 
 .linea {
-  margin: 0 15% 2em 15%;
+  margin: 0 15% 2em;
   background-color: #555;
   height: 1px;
+}
 
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 7vw;
+  }
+  .imagen {
+    height: 250px;
+  }
+  article p {
+    padding: 0 7.5%;
+    font-size: 18px;
+  }
+  .firma {
+    padding: 1em 7.5% 0.5em;
+    font-size: 14px;
+  }
+  .linea {
+    margin: 0 7.5% 2em;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  h2 {
+    font-size: 8.2vw;
+  }
+  .imagen {
+    height: 200px;
+  }
 }

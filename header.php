@@ -4,7 +4,7 @@
       <ul>
         <a style="text-decoration:none;" href="index.php"><li>INICIO</li></a>
         <a style="text-decoration:none;" href="#sobremi"><li>SOBRE MÍ</li></a>
-        <a style="text-decoration:none;" href="#cartaAlLector"><li>CARTA AL LECTOR</li></a>
+        <a style="text-decoration:none;" href="libros.php"><li>MIS LIBROS</li></a>
         <a style="text-decoration:none;" href="blog.php"><li>BLOG</li></a>
       </ul>
     </nav>
