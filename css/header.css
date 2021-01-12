@@ -1,26 +1,9 @@
-:root {
-  --verde:  rgb(79, 140, 135);
-  --verde-claro: rgb(97, 182, 141);
-  --violeta: rgb(127, 109, 151);
-  --violeta-claro: rgb(167,134,194,1);
-  --verde-libros: rgb(130, 195, 139);
-}
-
 header {
   margin-bottom: 20px;
 }
-.navegable-violeta {
-  width: 100%;
-  background-color:  var(--violeta);
-}
-.navegable-verde {
-  width: 100%;
-  background-color:  var(--verde);
-}
 
-.navegable-verde-libros {
+.navegable {
   width: 100%;
-  background-color:  var(--verde-libros);
 }
     .navegable ul {
       margin: 0;
@@ -35,20 +18,9 @@ header {
       color: #eee;
       transition: all .2s;
     }
-    .navegable-verde ul li:hover {
+    .navegable ul li:hover {
        background-color: #eee;
-       color: var(--verde);
      }
-
-     .navegable-verde-libros ul li:hover {
-        background-color: #eee;
-        color: var(--verde-libros);
-      }
-
-     .navegable-violeta ul li:hover {
-        background-color: #eee;
-        color: var(--violeta);
-      }
 
 .titulo {
    text-align: center;
@@ -80,19 +52,6 @@ header {
     font-size: 1.5vw;
     margin-right: 0.7em;
     transition: all 0.5s;
-  }
-  .seccion-redes ul a:hover{
-    border-radius: 100%;
-    color: #fff;
-  }
-  .seccion-redes-violeta ul a:hover{
-    background-color: var(--violeta-claro);
-  }
-  .seccion-redes-verde ul a:hover{
-    background-color: var(--verde-claro);
-  }
-  .seccion-redes-verde-libros ul a:hover{
-    background-color: var(--verde-libros);
   }
 
   @media screen and (max-width: 768px) {

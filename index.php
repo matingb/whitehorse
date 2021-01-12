@@ -31,7 +31,7 @@
           <div class="libro">
             <img id="whitehorse1" class="sombra" src="<?php echo $whitehorse1; ?>" alt="">
             <div class="iconos-de-libro">
-              <a href="#" class="icon-eye icono-de-libro" style="text-decoration:none;"></a>
+              <a href="libros.php#whitehorse1" class="icon-eye icono-de-libro" style="text-decoration:none;"></a>
               <a href="<?php echo $compraWhitehorse1; ?>" class="icon-shopping-cart icono-de-libro" style="text-decoration:none;"></a>
             </div>
           </div>
@@ -41,7 +41,7 @@
           <div class="libro">
             <img id="whitehorse2" class="sombra" src="<?php echo $whitehorse2; ?>" alt="">
             <div class="iconos-de-libro">
-              <a href="#" class="icon-eye icono-de-libro" style="text-decoration:none;"></a>
+              <a href="libros.php#whitehorse2" class="icon-eye icono-de-libro" style="text-decoration:none;"></a>
               <a href="<?php echo $compraWhitehorse2; ?>" class="icon-shopping-cart icono-de-libro" style="text-decoration:none;"></a>
             </div>
           </div>
@@ -51,7 +51,7 @@
           <div class="libro">
             <img id="whitehorse3" class="sombra" src="<?php echo $whitehorse3; ?>" alt="">
             <div class="iconos-de-libro">
-              <a href="#" class="icon-eye icono-de-libro" style="text-decoration:none;"></a>
+              <a href="libros.php#whitehorse3" class="icon-eye icono-de-libro" style="text-decoration:none;"></a>
               <a href="<?php echo $compraWhitehorse3; ?>" class="icon-shopping-cart icono-de-libro" style="text-decoration:none;"></a>
             </div>
           </div>

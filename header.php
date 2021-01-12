@@ -2,10 +2,10 @@
   <div class="row">
     <nav class="navegable">
       <ul>
-        <a style="text-decoration:none;" href="index.php"><li>INICIO</li></a>
-        <a style="text-decoration:none;" href="#sobremi"><li>SOBRE MÍ</li></a>
-        <a style="text-decoration:none;" href="libros.php"><li>MIS LIBROS</li></a>
-        <a style="text-decoration:none;" href="blog.php"><li>BLOG</li></a>
+        <a style="text-decoration:none;" href="index.php"><li class="navegable-li">INICIO</li></a>
+        <a style="text-decoration:none;" href="sobreMi.php"><li class="navegable-li">SOBRE MÍ</li></a>
+        <a style="text-decoration:none;" href="libros.php"><li class="navegable-li">MIS LIBROS</li></a>
+        <a style="text-decoration:none;" href="blog.php"><li class="navegable-li">BLOG</li></a>
       </ul>
     </nav>
   </div>
